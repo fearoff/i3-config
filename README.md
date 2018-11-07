@@ -3,11 +3,13 @@
 ## Prerequisites
 
 install Consolas font
+
 ```bash
 apt-get install fonts-inconsolata
 ```
 
 install
+
 [xkblayout-state](https://github.com/nonpop/xkblayout-state)
 
 ## Install
