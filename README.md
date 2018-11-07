@@ -15,11 +15,11 @@ install
 clone repo
 
 ```git
-git clone https://github.com/fearoff/i3.git
+git clone https://github.com/fearoff/i3-config.git
 ```
 
 replace files in your home dir
 
 ```bash
-find ./i3 -print | sed -e "s/^\.\/i3/./g" | cpio -pvdmB ~
+find ./i3-config -print | sed -e "s/^\.\/i3-config/./g" | cpio -pvdmB ~
 ```
