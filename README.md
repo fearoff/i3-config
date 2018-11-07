@@ -21,5 +21,5 @@ git clone https://github.com/fearoff/i3.git
 replace files in your home dir
 
 ```bash
-cp -a ./i3/. ~
+find ./i3 -print | sed -e "s/^\.\/i3/./g" | cpio -pvdmB ~
 ```
